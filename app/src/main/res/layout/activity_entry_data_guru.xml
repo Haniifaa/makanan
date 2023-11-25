@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CLASS.EntryDataGuru">
+
+    <TextView
+        android:id="@+id/teksentry"
+        android:text="Entry Data Guru"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/nipguru"
+        android:hint="nip guru"
+        android:layout_below="@+id/teksentry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/namaguru"
+        android:hint="nama guru"
+        android:layout_below="@+id/nipguru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/statusguru"
+        android:hint="status guru"
+        android:layout_below="@+id/namaguru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_below="@id/statusguru"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/tombolsave"
+            android:text="Save"
+            android:backgroundTint="@color/blue"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/tombolview"
+            android:text="view"
+            android:backgroundTint="@color/blue"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

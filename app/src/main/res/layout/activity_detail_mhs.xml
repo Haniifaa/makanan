@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detail_mhs">
+
+    <RelativeLayout
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="fantasy"
+            android:text="Kartu Hasil Studi"
+            android:background="@drawable/frame01"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="20dp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:paddingTop="50dp"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="NIM: A11.2021.13820"
+            />
+        <TextView
+            android:id="@+id/nimku"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_below="@+id/name"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Nama : Haniifa Aliila Faudyta "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_below="@+id/nimku"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Jurusan : S1-TI"
+            />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="410dp"
+            android:layout_height="25dp"
+            android:hint=""
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="120dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/akhir"
+            android:layout_width="410dp"
+            android:layout_height="25dp"
+            android:hint=""
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="160dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/huruf"
+            android:layout_width="410dp"
+            android:layout_height="25dp"
+            android:hint=""
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/predikat"
+            android:layout_width="410dp"
+            android:layout_height="25dp"
+            android:hint=""
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="240dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <Button
+            android:id="@+id/keluar"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:text="Exit"
+            tools:ignore="MissingConstraints"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="310dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

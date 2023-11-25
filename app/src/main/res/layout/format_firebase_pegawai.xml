@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_pegawai"
+        android:backgroundTint="@color/purple_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/nippegawai"
+                android:hint="nip pegawai"
+                android:textColor="@color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/namapegawai"
+                android:hint="nama pegawai"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:layout_below="@id/nippegawai"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/gajipegawai"
+                android:hint="gaji pegawai"
+                android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:layout_below="@id/namapegawai"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/hapuspegawai"
+                android:src="@drawable/ic_baseline_delete_24"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CLASS.UpdatePegawai">
+
+    <TextView
+        android:id="@+id/textView"
+        android:textColor="@color/white"
+        android:background="@color/ungutua"
+        android:textSize="30dp"
+        android:text="Entry Data Pegawai"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tnip"
+                android:text="NIP"
+                android:layout_width="100dp"
+                android:layout_centerVertical="true"
+                android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/xnip"
+                android:text=":"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tnip"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tnama"
+                android:text="Nama Pegawai"
+                android:layout_width="120dp"
+                android:layout_centerVertical="true"
+                android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:text=":"
+                android:id="@+id/xnama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tnama"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tgaji"
+                android:text="Gaji Pegawai"
+                android:layout_width="120dp"
+                android:layout_centerVertical="true"
+                android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:text=":"
+                android:layout_toRightOf="@+id/tgaji"
+                android:id="@+id/xgaji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnupdate"
+            android:text="save"
+            android:backgroundTint="@color/blue"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

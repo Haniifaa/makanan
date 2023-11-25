@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "848225024114",
+    "firebase_url": "https://proa11202113820-default-rtdb.firebaseio.com",
+    "project_id": "proa11202113820",
+    "storage_bucket": "proa11202113820.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848225024114:android:7c3cb293a9c16aa4032aeb",
+        "android_client_info": {
+          "package_name": "com.example.makanan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848225024114-6v0sknqpiakip76rp35mlse3gpceh5uk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyO18iNYieK29mwBrXhRXbIrHRR25NkBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848225024114-6v0sknqpiakip76rp35mlse3gpceh5uk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
